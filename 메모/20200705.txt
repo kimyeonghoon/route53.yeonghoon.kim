@@ -1,0 +1,4 @@
+기본적인 화면 및 동작 정의
+
+다음할 일 DB ERD 설계. SQL의 경우 특별한 이유가 없다면 MariaDB 사용
+(pdns backend-mysql 사용할 예정)
