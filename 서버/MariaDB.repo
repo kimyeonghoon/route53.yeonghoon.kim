@@ -1,4 +1,4 @@
-# MariaDB 10.5 CentOS repository list - created 2020-07-12 09:05 UTC
+# MariaDB 10.3 CentOS repository list - created 2020-07-12 09:05 UTC
 # http://downloads.mariadb.org/mariadb/repositories/
 [mariadb]
 name = MariaDB
