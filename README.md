@@ -17,3 +17,5 @@
 - 2020년 7월 1일 : 구상한 내용을 어떤식으로 나타낼지 스케치(https://github.com/kimyeonghoon/route53.yeonghoon.kim/blob/master/%EA%B8%B0%ED%9A%8D/%ED%99%94%EB%A9%B4%EC%8A%A4%EC%BC%80%EC%B9%98_20200701.pdf)
 - 2020년 7월 5일 : 화면정의서 완성
 (https://github.com/kimyeonghoon/route53.yeonghoon.kim/blob/master/%EA%B8%B0%ED%9A%8D/%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C_20200705.pdf)
+- 2020년 7월 12일 : ERD 작성 완료
+(https://github.com/kimyeonghoon/route53.yeonghoon.kim/blob/master/%EA%B8%B0%ED%9A%8D/erd_20200712.jpg)

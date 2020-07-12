@@ -1,0 +1,9 @@
+ERD 작성 완료.
+pdns 동작 확인 후 테이블 정의서 변경될 수도 있음
+pdns에서 질의시 사용하는 쿼리
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and type='SOA' and name='ns1.25ni.pe.kr'
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and type='NS' and name='ns1.25ni.pe.kr' and domain_id=4
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and name='ns1.25ni.pe.kr' and domain_id=4
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and name='ns1.25ni.pe.kr' and domain_id=4
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and type='SOA' and name='yeonghoon.kim'
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and name='yeonghoon.kim' and domain_id=8
