@@ -1,0 +1,8 @@
+# 1. 설치
+yum install -y epel-release
+yum install -y pdns pdns-backend-mysql
+
+# 2. /etc/pdns/pdns.conf 설정
+
+# 3. 서비스 데몬 실행
+service pdns start 

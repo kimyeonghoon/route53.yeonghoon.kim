@@ -1,0 +1,32 @@
+# 1. /etc/yum.repos.d/MariaDB.repo 추가
+
+# 2. 설치
+yum install MariaDB-server MariaDB-client
+
+# 3. /etc/my.cnf.d/server.cnf 수정
+
+# 4. MariaDB 실행
+service mariadb start
+
+# 5. mysql_secure_install 실행
+1) Enter current password for root (enter for none): 엔터
+2) Switch to unix_socket authentication [Y/n] y
+3) Change the root password? [Y/n] y
+	New password: 패스워드 입력
+	Re-enter new password: 패스워드 입력(확인)
+4) Remove anonymous users? [Y/n] y
+5) Disallow root login remotely? [Y/n] y
+6) Remove test database and access to it? [Y/n] y
+7) Reload privilege tables now? [Y/n] y
+
+# 6. DB 접속
+mysql -uroot -p
+
+# 7. DB 스키마 및 사용자 생성
+CREATE DATABASE route53;
+GRANT ALL PRIVILEGES ON route53.* TO route53@localhost identified by '패스워드';
+FLUSH PRIVILEGES;
+
+# 7. 샘플 SQL 넣기
+mysql -uroot -p route53 < sample.sql
+
