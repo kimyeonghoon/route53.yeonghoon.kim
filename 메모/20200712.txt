@@ -7,3 +7,7 @@ SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE dis
 SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and name='ns1.25ni.pe.kr' and domain_id=4
 SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and type='SOA' and name='yeonghoon.kim'
 SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=0 and name='yeonghoon.kim' and domain_id=8
+
+
+다음에 할 일 - where절 정상 값이 아닌 '?' 들어가는 문제 확인 필요
+SELECT content,ttl,prio,type,domain_id,disabled,name,auth FROM records WHERE disabled=? and name='yeonghoon.kim' and domain_id=?
