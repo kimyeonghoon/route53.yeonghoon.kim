@@ -19,3 +19,7 @@
 (https://github.com/kimyeonghoon/route53.yeonghoon.kim/blob/master/%EA%B8%B0%ED%9A%8D/%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C_20200705.pdf)
 - 2020년 7월 12일 : <s>ERD 작성 완료</s>, pdns 테스트 결과 기본 테이블 및 컬럼 수정 필요. 서버 테스트 완료(CentOS8, MariaDB 10.3, pdns 4.3)
 (https://github.com/kimyeonghoon/route53.yeonghoon.kim/blob/master/%EA%B8%B0%ED%9A%8D/erd_20200712.jpg)
+
+
+#### -프로젝트 일시 중단.
+- 다른 미니 프로젝트 
